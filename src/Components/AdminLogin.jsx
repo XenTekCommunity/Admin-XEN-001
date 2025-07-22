@@ -78,26 +78,7 @@ const AdminLogin = ({ onLogin }) => {
             <p className="text-white/80">AutoHub Dashboard Access</p>
           </div>
 
-          {/* Demo Credentials */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.4 }}
-            className="bg-white/10 rounded-lg p-4 mb-6 border border-white/20"
-          >
-            <h3 className="text-white font-semibold mb-2 flex items-center">
-              <Lock className="h-4 w-4 mr-2" />
-              Demo Credentials
-            </h3>
-            <div className="text-white/90 text-sm space-y-1">
-              <p>
-                <span className="font-medium">Username:</span> admin@autohub.com
-              </p>
-              <p>
-                <span className="font-medium">Password:</span> admin123
-              </p>
-            </div>
-          </motion.div>
+          
 
           {/* Login Form */}
           <form onSubmit={handleSubmit} className="space-y-6">
@@ -180,8 +161,8 @@ const AdminLogin = ({ onLogin }) => {
             transition={{ delay: 0.6 }}
             className="text-center mt-8 text-white/60 text-sm"
           >
-            <p>© 2024 AutoHub Admin Portal</p>
-            <p>Secure Dashboard Access</p>
+            <p>© 2025 AutoHub Admin Portal</p>
+            <p>XenTek Secure Access</p>
           </motion.div>
         </div>
       </motion.div>
